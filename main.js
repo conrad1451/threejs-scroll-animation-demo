@@ -65,7 +65,7 @@ scene.background = spaceTexture;
 
 // Avatar
 
-const conradTexture = new THREE.TextureLoader().load('profile_pic_square_frame.jpg');
+const conradTexture = new THREE.TextureLoader().load('imgs/chq-pic-1802px-1802px.png');
 
 const conrad = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: conradTexture }));
 
