@@ -4,7 +4,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 // Setup
 
-const scene = new THREE.Scene();
+const scene = new THREE.Scene(); // CHQ: adding a comment to complete my agenda of having the original code deployed in a branch, for testing
 
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 
