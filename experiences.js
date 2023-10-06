@@ -91,5 +91,8 @@ for ( let i = 0; i <= 1; i += i) {
     htmlString += curJobInHTML;
 }
 
-listedexperiences.innerHTML = htmlString; 
+// listedexperiences.innerHTML = htmlString; 
+
+let myTest = "HI";
+listedexperiences.innerHTML = `<p>${myTest}</p>`;
 // console.log(htmlString);
