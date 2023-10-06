@@ -61,6 +61,15 @@ canvas {
     margin-bottom: var(--spacing);
   }
 
+  sectionaltone {
+    grid-column: 4 / 8;
+    padding: 1rem;
+    background: var(--dark-bg);
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: var(--spacing);
+  }
+
   blockquote {
     margin: 0;
     padding: 0;
