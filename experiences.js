@@ -44,8 +44,8 @@ let professionalExperiences = [
         location: "Nashville TN",
         dateRange: "Jan 2019 - Mar 2020",
         activities: [
-            "1",
-            "2"
+            "Reduced professor complaints to technical department by testing audio, visual, and wireless capabilities to ensure quick and reliable connection to classroom iMacs, PCs and tablets for 20 professors and speaking guests.",
+            "Ensured smooth conduction of 3 public speaking engagements and performances by offering stand-by technical support."
         ]
     },
     {                                         
@@ -61,8 +61,35 @@ let professionalExperiences = [
     } 
 ];
 
-for ( let i = 10; i <= 1000; i += 10) {
-htmlString += `<div>${i}</div>`;
+// for ( let i = 0; i <= professionalExperiences.length; i += i) {
+for ( let i = 0; i <= 1; i += i) {
+    let curJob = professionalExperiences[i];
+
+    let curJobInHTML = "";
+    let listOfActs = "";
+
+    let curCompany = curJob.company;
+    let curRole = curJob.role;
+    let curLoc = "(" + curJob.location + ")";
+    let curDate = curJob.dateRange;
+    let curAct = curJob.activities;
+
+    let titleLine = curCompany + " - " + curRole + " | " + curDate;
+
+    // curJobInHTML += 
+    curJobInHTML += `<h3>${titleLine}</h3>`;
+    curJobInHTML += `<p>${curLoc}</p>`;
+
+
+    for (let j = 0; j < curAct.length; ++j)
+    {
+        listOfActs += `<li>${curAct[j]}</li>`;
+    }
+
+    curJobInHTML += `<p>${listOfActs}</p>`;
+
+    htmlString += curJobInHTML;
 }
-main.innerHTML = htmlString; 
-console.log(htmlString);
+
+listedexperiences.innerHTML = htmlString; 
+// console.log(htmlString);
