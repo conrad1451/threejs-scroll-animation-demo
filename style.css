@@ -10,6 +10,7 @@ canvas {
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
   --spacing: 350px;
+  --spacing2: 80px;
 
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
@@ -68,7 +69,7 @@ experienceleftside {
   background: var(--dark-bg);
   font-size: 1.25rem;
   line-height: 1.5;
-  margin-bottom: var(--spacing);
+  margin-bottom: var(--spacing2);
 }
 experiencerightside {
   /* The following line reveals that there are 12 lines (columns), since the grid-column goes fromm start to end-1 */
@@ -78,7 +79,7 @@ experiencerightside {
   background: var(--dark-bg);
   font-size: 1.25rem;
   line-height: 1.5;
-  margin-bottom: var(--spacing);
+  margin-bottom: var(--spacing2);
 }
 
 sectionaltone {
