@@ -61,7 +61,8 @@ section {
   margin-bottom: var(--spacing);
 }
 section1 {
-  /* grid-column: 2 / 8; */
+  grid-column: 8 / 12;
+    /* grid-column: 2 / 8; */
   padding: 1rem;
   background: var(--dark-bg);
   font-size: 1.25rem;
