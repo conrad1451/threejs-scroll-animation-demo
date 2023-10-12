@@ -60,6 +60,14 @@ section {
   line-height: 1.5;
   margin-bottom: var(--spacing);
 }
+section1 {
+  /* grid-column: 2 / 8; */
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+}
 
 sectionaltone {
   grid-column: 4 / 8;
