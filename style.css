@@ -60,7 +60,17 @@ section {
   line-height: 1.5;
   margin-bottom: var(--spacing);
 }
-section1 {
+experienceleftside {
+  /* The following line reveals that there are 12 lines (columns), since the grid-column goes fromm start to end-1 */
+  grid-column: 2 / 6; 
+    /* grid-column: 2 / 8; */
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+}
+experiencerightside {
   /* The following line reveals that there are 12 lines (columns), since the grid-column goes fromm start to end-1 */
   grid-column: 8 / 12; 
     /* grid-column: 2 / 8; */
