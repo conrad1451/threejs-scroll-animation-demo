@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8" /> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+	<meta name="viewport" content= 
+"width=device-width, initial-scale=1.0" /> 
+	<title>Primer CSS</title> 
+	<link href= 
+"https://unpkg.com/@primer/css@^19.0.0/dist/primer.css"
+		rel="stylesheet"/> 
+</head> 
+<body> 
+	<div class="m-4"> 
+		<h1 style="color:green">GeeksforGeeks</h1> 
+		<h2>Primer CSS Nesting Layout</h2> 
+	</div> 
+
+	<div class="Layout m-4"> 
+		<div class="Layout-main"> 
+			<div class="Layout Layout--sidebarPosition-end 
+						Layout--sidebar-narrow"> 
+			<div class="Layout-main border p-2 color-bg-success"> 
+				Layout main container 
+				</div> 
+				<div class="Layout-sidebar border p-2 color-bg-accent"> 
+				Layout metadata sidebar container 
+				</div> 
+			</div> 
+		</div> 
+		<div class="Layout-sidebar border p-2 color-bg-accent"> 
+			Layout sidebar default 
+		</div> 
+	</div> 
+	<div class="Layout m-4"> 
+		<div class="Layout-main "> 
+			<div class="Layout Layout--sidebarPosition-end 
+						Layout--flowRow-until-lg 
+						Layout--sidebar-narrow"> 
+				<div class="Layout-main border p-2 color-bg-danger"> 
+				Layout main container 
+				</div> 
+				<div class="Layout-sidebar border p-2 color-bg-accent"> 
+				Layout metadata sidebar container 
+				</div> 
+			</div> 
+	</div> 
+	<div class="Layout-sidebar border p-2 color-bg-accent"> 
+			Layout sidebar 
+		</div> 
+	</div> 
+</body> 
+</html> 
