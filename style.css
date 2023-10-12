@@ -73,7 +73,8 @@ experienceleftside {
 }
 experiencerightside {
   /* The following line reveals that there are 12 lines (columns), since the grid-column goes fromm start to end-1 */
-  grid-column: 8 / 12; 
+  grid-column: 7 / 11; 
+  /* grid-column: 8 / 12;  */
     /* grid-column: 2 / 8; */
   padding: 1rem;
   background: var(--dark-bg);
