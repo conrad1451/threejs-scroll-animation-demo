@@ -10,6 +10,7 @@ canvas {
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
   --spacing: 350px;
+  --spacing2: 80px;
 
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
@@ -44,38 +45,68 @@ canvas {
 
 
 
-  header {
-    background: var(--dark-bg);
-    grid-column: 2 / span 5;
-    font-size: 2.5rem;
-    padding: 2rem;
-    margin-bottom: var(--spacing);
-  }
+header {
+  background: var(--dark-bg);
+  grid-column: 2 / span 5;
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin-bottom: var(--spacing);
+}
 
-  section {
-    grid-column: 2 / 8;
-    padding: 1rem;
-    background: var(--dark-bg);
-    font-size: 1.25rem;
-    line-height: 1.5;
-    margin-bottom: var(--spacing);
-  }
+section {
+  grid-column: 2 / 8;
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+}
+experienceleftside {
+  /* The following line reveals that there are 12 lines (columns), since the grid-column goes fromm start to end-1 */
+  grid-column: 2 / 6; 
+    /* grid-column: 2 / 8; */
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing2);
+}
+experiencerightside {
+  /* The following line reveals that there are 12 lines (columns), since the grid-column goes fromm start to end-1 */
+  grid-column: 7 / 11; 
+  /* grid-column: 8 / 12;  */
+    /* grid-column: 2 / 8; */
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing2);
+}
 
-  blockquote {
-    margin: 0;
-    padding: 0;
-    grid-column: 2 / span 9;
-    margin-bottom: var(--spacing);
-  }
+sectionaltone {
+  grid-column: 4 / 8;
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+}
 
-  blockquote p {
-    color: black;
-    background-color: white;
-    font-size: 4rem;
-    display: inline;
-    line-height: 1;
-  }
+blockquote {
+  margin: 0;
+  padding: 0;
+  grid-column: 2 / span 9;
+  margin-bottom: var(--spacing);
+}
 
-  .left {
-    grid-column: 6 / 12;
-  }
+blockquote p {
+  color: black;
+  background-color: white;
+  font-size: 4rem;
+  display: inline;
+  line-height: 1;
+}
+
+.left {
+  grid-column: 6 / 12;
+}
