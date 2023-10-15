@@ -28,6 +28,7 @@ main {
   padding: 120px 0px;
   
   display: grid;
+  /* CHQ: The following line determined that there be 12 columns in this page */
   grid-template-columns: repeat(12, 1fr);
 }
 
@@ -41,6 +42,14 @@ canvas {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+experiencepanel{
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing2);
 }
 
 
@@ -61,27 +70,38 @@ section {
   line-height: 1.5;
   margin-bottom: var(--spacing);
 }
-experienceleftside {
-  /* The following line reveals that there are 12 lines (columns), since the grid-column goes fromm start to end-1 */
-  grid-column: 2 / 6; 
+
+experiencepanel leftside{
+    /* The following line reveals that there are 12 lines (columns), since the grid-column goes fromm start to end-1 */
+    grid-column: 2 / 6; 
     /* grid-column: 2 / 8; */
-  padding: 1rem;
-  background: var(--dark-bg);
-  font-size: 1.25rem;
-  line-height: 1.5;
-  margin-bottom: var(--spacing2);
 }
-experiencerightside {
+
+experiencepanel rightside{
+    /* The following line reveals that there are 12 lines (columns), since the grid-column goes fromm start to end-1 */
+    grid-column: 7 / 11; 
+    /* grid-column: 8 / 12;  */
+      /* grid-column: 2 / 8; */
+}
+
+
+/* experienceleftside { */
   /* The following line reveals that there are 12 lines (columns), since the grid-column goes fromm start to end-1 */
-  grid-column: 7 / 11; 
+  /* grid-column: 2 / 6;  */
+    /* grid-column: 2 / 8; */
+/* } */
+
+/* experiencerightside { */
+  /* The following line reveals that there are 12 lines (columns), since the grid-column goes fromm start to end-1 */
+  /* grid-column: 7 / 11;  */
   /* grid-column: 8 / 12;  */
     /* grid-column: 2 / 8; */
-  padding: 1rem;
-  background: var(--dark-bg);
-  font-size: 1.25rem;
-  line-height: 1.5;
-  margin-bottom: var(--spacing2);
-}
+  /* padding: 1rem; */
+  /* background: var(--dark-bg); */
+  /* font-size: 1.25rem; */
+  /* line-height: 1.5; */
+  /* margin-bottom: var(--spacing2); */
+/* } */
 
 sectionaltone {
   grid-column: 4 / 8;
