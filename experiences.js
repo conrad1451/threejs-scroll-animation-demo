@@ -23,9 +23,9 @@ let professionalExperiences = [
         location: "New Haven CT",
         dateRange: "May 2020 - Aug 2020",
         activities: [
-            "Coordinated the STEM education of 6 students via online instruction by developing 16 lesson plans for Python computer programming, Arduino prototyping, and Unmanned Aerial Systems (UAV).",
-            "Strengthened problem-solving, critical thinking, and programming skills of students through guided estimation challenges and instruction in the Python programming language and UAV technology."
-        ]
+                "Coordinated the STEM education of 6 students via online instruction by developing 16 lesson plans for Python computer programming, Arduino prototyping, and Unmanned Aerial Systems (UAV).",
+                "Strengthened problem-solving, critical thinking, and programming skills of students through guided estimation challenges and instruction in the Python programming language and UAV technology."
+            ]
     }, 
     {
         company: "GForce STEM",
